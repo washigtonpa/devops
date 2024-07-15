@@ -25,6 +25,8 @@ $ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-3         - HOST D
 
 $ sudo su
 $ curl https://releases.rancher.com/install-docker/19.03.sh | sh
+#Usei este
+curl https://releases.rancher.com/install-docker/24.0.sh | sh
 $ usermod -aG docker ubuntu
 ```
 
